@@ -1,0 +1,491 @@
+* {
+    box-sizing: border-box;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Index*/
+.body-index{
+    background-image:  url(../img/navbar/dog-banner.jpg);
+}
+
+.p-index-prod{
+    font-family: fantasy;
+    font-style: oblique;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+}
+
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -99;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+/* Header Banner */
+.header-banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    z-index: 99;
+    transition: 0.4s;
+    margin-bottom: -1px;
+    padding: 10px;
+}
+
+.bg-imagen1 {
+    background-color: #262626;
+    background-blend-mode: darken;
+    background-repeat: no-repeat; /* Que la imagen no se repita */ 
+    background-size: cover; /* Adapte el tamaño */
+    background-position: center 0px; /* Posicion centrada*/
+}
+
+.header-banner .interno {
+    display: flex;
+    justify-content: center;
+    padding: 8px 0;
+    align-items: center;
+    position: relative;
+}
+
+.header-banner .banner-ayudanos {
+    font-size: 15px;
+}
+
+.banner-text1 {
+    display: inline-block; /*Los elementos inline-block fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales*/
+    margin-left: 15px;
+    color: white;
+}
+.banner-text2 {
+    display: inline-block; /*Los elementos inline-block fluyen con el texto y demás elementos como si fueran elementos en-línea y además respetan el ancho, el alto y los márgenes verticales*/
+    margin-left: 15px;
+    color: white;
+    background-size: cover  ;
+    border-radius: 30px;
+}
+
+/* Navbar */
+.logo {
+    max-height: 80px;
+}
+
+.bg-navbar {
+    background-image: url(../img/navbar/bg-blue-3.jpg);
+    background-size: cover;
+    
+}
+
+.badge{
+    font-size: 30px;
+}
+
+.btn-iniciar {
+    background-image: url(../img/navbar/bg-blue-3.jpg);
+    background-size: cover;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.interno-nav {
+    margin-left: 100px;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Primera sección */
+.seccion-1 {
+    text-align: center;
+    padding: 180px;
+    font-size: 15px;
+}
+
+.seccion-1 h1 {
+    font-family: fantasy;
+    font-style: oblique;
+}
+
+.seccion-1 span {
+    font-size: 25px;
+}
+
+/*Seccion 2*/
+.seccion-2 {
+    text-align: center;
+    font-size: 15px;
+}
+
+.seccion-2 span {
+    font-size: 20px;
+    background-image: url(../img/nav-carrito.jpg);
+    background-size: cover;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.seccion-2 p {
+    margin-bottom: 25px;
+}
+
+.btn-group:hover{
+    background-color: rgb(247, 243, 11);
+
+
+}
+
+.btn-orange {
+    background-image: url(../img/bg-comprar-orange.jpg);
+    background-size: cover;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.bg-container {
+    background: rgba(243, 243, 243, 0.7) url(../img/bg-mascotas.png);
+    background-blend-mode: darken;
+    background-size: cover;
+    background-position: center 605px;
+    
+}
+
+/*Productos*/
+.bg-t-productos{
+    background-image: url(../img/bg-t-productos.jpg);
+    background-size: cover;
+}
+
+.body-stock{
+    background-color: rgb(131, 203, 221);
+}
+
+.filtros{
+    background-color: #c7cd57;
+    border-radius: 10px;
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.btn-productos {
+    background-image: url(../img/bg-comprar-orange.jpg);
+    background-size: cover;
+    color: black;
+    font-size: 20px;
+}
+/* Aca voy a modificar cosas en productos panchito ready  */
+
+/*Carrito*/
+.bg-body-carrito{
+    background-image: url(../img/webplay/bg-perros-webpay_4.jpg);
+    background-size: cover;
+}
+
+.bg-carrito {
+    background-image: url(../img/nav-carrito.jpg);
+    background-size: cover;
+    color: white;
+    flex: content;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bg-carrito h3 {
+    margin: 15px;
+    margin-left: 120px;
+}
+
+.bg-carrito a img{
+    width: 50px;
+    margin: 20px;
+    justify-content: start;
+}
+
+.medio-pago {
+    margin-top: 40px;
+}
+
+/* Card Carrito */
+.card-carrito {
+    width: 500px;
+    height: 200px;
+    flex: auto;
+    flex-direction: row-reverse;
+    margin-left: 100px;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 180px;
+    margin-top: 20px;
+}
+
+.card-carrito img {
+    width: 200px;
+    border-radius: 20px;
+}
+
+/* Eliminar compra*/
+.btn-eliminar-compra {
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+    border: none;
+    width: 400px;
+    padding: 10px;
+}
+
+.btn-eliminar-compra i {
+    margin: 5px;
+}
+
+/*Botones en card*/
+.btn-group:hover {
+    background-color: transparent;
+}
+
+/* Pago */
+/*Banner*/
+.banner-pago {
+    justify-content: center;
+    background-image: url(../img/nav-carrito.jpg);
+    background-size: cover;
+    color: white;
+    flex: content;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+/*Body Pago*/
+.body-pago{
+    background-color: aquamarine;
+}
+/*Mod Body*/
+.body-pago{
+    background-image: url(../img/webplay/bg-perros-webpay_4.jpg);
+    background-size: cover;
+    /*Hay que subir la imagen, para que se vena los perros*/
+    background-position: 150px;
+    
+}
+
+.formulario-pago {
+    background-color: #233b53;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: start;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+/*Footer*/
+.footer_brigido a{ /*Mod iconos red social*/
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: white;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease; /*ni pedo de para que wera esto, se que tiewne que ver con los eventos, era el tiempo de las tranciciones*/
+}
+
+.footer_brigido .red-social a:hover{ /*Ricos eventos*/
+    color: aqua;
+}
+
+/* Stock */
+/* Nav */
+.nav-stock {
+    background-color: #0d2033;
+    color: white;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.nav-stock p {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.nav-stock .dropdown {
+    margin-top: 5px;
+    margin-right: 130px;
+}
+
+.nav-stock .btn-group {
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.nav-stock .btn-group a{
+    border-radius: 20px;
+    /*Ver porqué no funciona el border-radius*/
+}
+
+.card-stock .col-sm-4{
+    flex-basis: 25%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.card-stock .card{
+    justify-content: space-between;
+    border-radius: 10px;
+    border-color: black;
+}
+
+.img_1{
+    margin-left: 105px;
+}
+
+.card-stock .card .card-img-top {
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+    border-color: black;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;    
+}
+
+.flecha-volver a i{
+    position: static;
+    margin-top: 1800px;
+    margin-left: 70px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 250px;
+    background-color: #233b53;
+    font-size: 20px;
+    
+}
+
+.productos-index .col-sm-6{
+    flex-basis: 47%;
+    margin-bottom: 60px;
+}
+
+/*Index Carseul*/
+.carousel-index {
+    width: 100%;
+}
+
+/*Perfil*/
+.body-perfil{
+    background-image: url(../img/webplay/bg-perros-webpay_6.jpg);
+    background-size: cover;
+}
+
+.formulario-perfil {
+    background-color: #233b53;
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    justify-content: start;
+    margin-left: 150px;
+    margin-bottom: 20px;
+    margin-top: 35px;
+}
+
+.img-perfil img {
+    margin-left: 30px;
+}
+
+.detalle {
+    padding: 20px;
+    background-color: #233b53;
+    border-radius: 5px;
+    color: white;
+}
+.detalle h4 {
+    margin-top: 10px;
+}
+
+.detalle span {
+    color: green;
+}
+
+.titulo-producto {
+    padding: 20px;
+    background-color: #233b53;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.grupo-detalle {
+    padding: 20px;
+    background-color: #233b53;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.detalle-compra {
+    padding: 20px;
+    background-color: #233b53;
+    border-radius: 5px;
+    color: white;
+}
+.detalle-compra h4 {
+    text-align: center;
+    
+}
+
+.detalle-compra h4 span {
+    color: white;
+}
+
+.bg-seguimiento h3 {
+    margin-left: 450px;
+}
+
+.seg-pedido{
+    background-image: url(../img/webplay/bg-perros-webpay_6.jpg);
+    background-size: cover;
+}
+
+.anuncio-web {
+    margin-top: 150px;
+}
+
+.anuncio-web img {
+    border-radius: 20px;
+    width: 600px;
+}
